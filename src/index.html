@@ -6,9 +6,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <h1>Credit Card Validator</h1>
+      <p>Aplicación diseñada para verificar si la tarjeta de crédito con la cuál se realizará la compra es válida o no!</p>
+    </header>
+    <main id="container"> 
+      <img src="https://www.avvillas.com.co/wps/wcm/connect/avvillas/200bee21-344d-4b3e-b292-c78ae78fcefa/TC-Experto-img.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_G0MI0J02L8NK70AHL9SQNR1826-200bee21-344d-4b3e-b292-c78ae78fcefa-nvQRPZy" >
+      <form action="" method="post">
+        <label for="tcnum">Ingrese Número de Tarjeta de Crédito:</label><br>
+        <input type="number" id="tcnum" name="tcnum" min="0" required><br>
+        <button type="button" id="ingresar" >Ingresar</button>
+      </form>
+    </main>
+    <footer>
+      <p>🌸Clothes OK!🌸</p>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
