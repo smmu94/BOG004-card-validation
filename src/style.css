@@ -1,90 +1,223 @@
 h1 {
     font-size: 70px;
+    font-weight: 100;
     margin-bottom: 0px;
-    margin-top: 30px;
+    margin-top: 1px;
     padding: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    background-color: white;
-    background-image: url("https://image.shutterstock.com/image-vector/classic-seamless-vector-pattern-damask-260nw-1062608945.jpg");
-   
-    background-size: 8%
+    background-image: url("fondo transparente.png");
+    background-size: 10%;
+    background-position: 50% bottom;
+    font-family: Serif ;
     }
     
     header p {
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     margin-top: 5px;
     padding: 0px;
     margin-left: 0px;
     margin-right: 0px;
     background-color: black;
-    
     }
     
     header {
     display: inline;
     text-align: center;
-    
-  
     }
+
     
     #container {
-    display: block;
-    position: absolute;
     top: 220px;
     text-align: center;
     right: 450px;
     margin: 0px;
     padding: 0px;
- 
     }
     
-    body {
-        background-image: url("https://www.mariefrance.fr/wp-content/uploads/sites/5/2015/02/Disney-7-750x410.png");
-        background-size: 95%;
+    form {
+        top: 40%;
     }
     
-    img {
-        width: 380px;
-        border-radius: 4%;
-        border: black 2px solid;
-        right: 250px;
-        position: inherit;
+    #pantalla2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 1350px;;
+        align-content: center;
+        align-items: center;
     }
-    
-        label {
-        font-weight: bold;
-        font-size: 20px;
-        position: relative;
-        top: 270px;
-        right: 280px;
-        background-color: gray;
-        color: black;
+   #tcvalid {
+       display: none;
+       text-align: center;
+       background-color: papayawhip;
+       border: 3px solid;
+       width: 44%;
+       height: 400px;
+   }
 
-        }
+   #box1 {
+    display: none;
+    text-align: justify;
+    font-size: 20px;
+    width: 44%;
+    height: 400px;
+    text-indent: 50px;
+    margin: 40px;
+    background-color: white;
+}
 
-    
-    #tcnum {
-        width: 150px;
-        position: absolute;
-        top: 300px;
-        right: 380px;
-    }
+   label {
+      font-size: 20px;
+      font-weight: bold; 
+   }
+   form #tcnum {
+       position: relative;
+       top: 20px;
+   }
+   form #ingresar {
+    position: relative;
+    top: 25px;
+}
 
-    button {
-        width: 80px;
-        position: absolute;
-        top: 320px;
-        right: 420px;
-    }
+   main {
+       display: flex;
+       flex-wrap: wrap;
+   }
+
+   #container_1 {
+    width: 320px;
+    height: 900px;
+    margin: auto;
+    background-color: papayawhip;
+    border: solid 2px;
+    background-image: url("info.png");
+    background-repeat: no-repeat;
     
-    body footer {
-        background-image: url("https://image.shutterstock.com/image-vector/classic-seamless-vector-pattern-damask-260nw-1062608945.jpg");
-        position: relative;
-        top: 445px;
-        text-align: center;
-        font-size: 20px;
-        font-weight: bolder;
+ }
+ #container_1 h4 {
+    font-size: 21px;
+    
+ }
+
+ #container_1 p {
+    line-height: 15%;
+    font-size: 15px;
+    
+}
+
+   #container_2 {
+      width: 1000px;
+      height: 900px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      border: solid 2px;
+   }
+
+   #container_3 {
+    width: 1350px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    background-image: url("fondo transparente.png");
+    background-size: 10%;
+    background-position: 50% bottom;
+ }
+   .card {
+      width: 33%;
+      flex: none;
+      line-height: 60%;
+      text-align: center;
+   }
+
+   body footer {
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 50px;
+}
+
+div img {
+    height: 300px;
+    width: 100%;
+    border-radius: 2%;
+}
+
+#tcvalid img {
+    width: 80%;
+}
+
+#comprar {
+   position: absolute;
+   top: 1065px;
+   right: 450px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#container_3 h4 {
+    font-size: 20px;
+}
+
+#container_3 #pagar {
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    top: 15%;
+    right: -1.5%;
+}
+.card {
+background-color: white;
+}
+
+#agregar1 {
+    top:   560px;
+    right: 810px;
+}
+#agregar2 {
+    top:   560px;
+    right: 470px;
+}
+#agregar3 {
+    top:   560px;
+    right: 130px;
+}
+#agregar4 {
+    top:   1010px;
+    right: 810px;
+}
+#agregar5 {
+    top:   1010px;
+    right: 470px;
+}
+#agregar6 {
+    top:   1010px;
+    right: 130px;
+}
+#woman {
+display: none;
+width: 30%;
+height: 50%;
+position: relative;
+right: -200px;
+}
+
+#negative {
+    display: none;
+    width: 30%;
+    height: 50%;
+    position: relative;
+    right: -200px;
     }
-   
+#volver {
+    display: none;
+}
