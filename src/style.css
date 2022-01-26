@@ -1,223 +1,223 @@
 h1 {
-    font-size: 70px;
-    font-weight: 100;
-    margin-bottom: 0px;
-    margin-top: 1px;
-    padding: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    background-image: url("fondo transparente.png");
-    background-size: 10%;
-    background-position: 50% bottom;
-    font-family: Serif ;
-    }
-    
-    header p {
-    font-size: 20px;
-    color: white;
-    margin-top: 5px;
-    padding: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    background-color: black;
-    }
-    
-    header {
-    display: inline;
-    text-align: center;
-    }
-
-    
-    #container {
-    top: 220px;
-    text-align: center;
-    right: 450px;
-    margin: 0px;
-    padding: 0px;
-    }
-    
-    form {
-        top: 40%;
-    }
-    
-    #pantalla2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 1350px;;
-        align-content: center;
-        align-items: center;
-    }
-   #tcvalid {
-       display: none;
-       text-align: center;
-       background-color: papayawhip;
-       border: 3px solid;
-       width: 44%;
-       height: 400px;
-   }
-
-   #box1 {
-    display: none;
-    text-align: justify;
-    font-size: 20px;
-    width: 44%;
-    height: 400px;
-    text-indent: 50px;
-    margin: 40px;
-    background-color: white;
+  font-size: 70px;
+  font-weight: 100;
+  margin-bottom: 0px;
+  margin-top: 1px;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-image: url("images/fondo_transparente.png");
+  background-size: 10%;
+  background-position: 50% bottom;
+  font-family: Serif;
 }
 
-   label {
-      font-size: 20px;
-      font-weight: bold; 
-   }
-   form #tcnum {
-       position: relative;
-       top: 20px;
-   }
-   form #ingresar {
-    position: relative;
-    top: 25px;
+header p {
+  font-size: 20px;
+  color: white;
+  margin-top: 5px;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: black;
 }
 
-   main {
-       display: flex;
-       flex-wrap: wrap;
-   }
-
-   #container_1 {
-    width: 320px;
-    height: 900px;
-    margin: auto;
-    background-color: papayawhip;
-    border: solid 2px;
-    background-image: url("info.png");
-    background-repeat: no-repeat;
-    
- }
- #container_1 h4 {
-    font-size: 21px;
-    
- }
-
- #container_1 p {
-    line-height: 15%;
-    font-size: 15px;
-    
+header {
+  display: inline;
+  text-align: center;
 }
 
-   #container_2 {
-      width: 1000px;
-      height: 900px;
-      margin: auto;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      border: solid 2px;
-   }
+#container {
+  top: 220px;
+  text-align: center;
+  right: 450px;
+  margin: 0px;
+  padding: 0px;
+}
 
-   #container_3 {
-    width: 1350px;
-    height: 60px;
-    margin: auto;
-    display: flex;
-    align-content: flex-end;
-    justify-content: center;
-    background-image: url("fondo transparente.png");
-    background-size: 10%;
-    background-position: 50% bottom;
- }
-   .card {
-      width: 33%;
-      flex: none;
-      line-height: 60%;
-      text-align: center;
-   }
+form {
+  top: 40%;
+}
 
-   body footer {
-    background-color: black;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
-    height: 50px;
+#pantalla2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1350px;
+  align-content: center;
+  align-items: center;
+}
+#tcvalid {
+  display: none;
+  text-align: center;
+  background-color: papayawhip;
+  border: 3px solid;
+  width: 44%;
+  height: 400px;
+}
+
+#box1 {
+  display: none;
+  text-align: justify;
+  font-size: 20px;
+  width: 44%;
+  height: 400px;
+  text-indent: 50px;
+  margin: 40px;
+  background-color: white;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+form #tcnum {
+  position: relative;
+  top: 20px;
+}
+form #ingresar {
+  position: relative;
+  top: 25px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#container_1 {
+  width: 320px;
+  height: 900px;
+  margin: auto;
+  background-color: papayawhip;
+  border: solid 2px;
+}
+#container_1 h4 {
+  font-size: 21px;
+}
+
+#container_1 p {
+  line-height: 15%;
+  font-size: 15px;
+}
+
+#container_2 {
+  width: 1000px;
+  height: 900px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 2px;
+}
+
+#container_3 {
+  width: 1350px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  background-image: url("images/fondo_transparente.png");
+  background-size: 10%;
+  background-position: 50% bottom;
+}
+.card {
+  width: 33%;
+  flex: none;
+  line-height: 60%;
+  text-align: center;
 }
 
 div img {
-    height: 300px;
-    width: 100%;
-    border-radius: 2%;
+  height: 300px;
+  width: 100%;
+  border-radius: 2%;
 }
 
 #tcvalid img {
-    width: 80%;
+  width: 80%;
 }
 
 #comprar {
-   position: absolute;
-   top: 1065px;
-   right: 450px;
-    width: 100px;
-    height: 30px;
-    font-size: 15px;
-    font-weight: bolder;
+  position: absolute;
+  top: 1065px;
+  right: 450px;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bolder;
 }
 
 #container_3 h4 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #container_3 #pagar {
-    font-size: 20px;
-    font-weight: bolder;
-    position: relative;
-    top: 15%;
-    right: -1.5%;
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  top: 15%;
+  right: -1.5%;
 }
 .card {
-background-color: white;
+  background-color: white;
 }
 
 #agregar1 {
-    top:   560px;
-    right: 810px;
+  top: 560px;
+  right: 810px;
 }
 #agregar2 {
-    top:   560px;
-    right: 470px;
+  top: 560px;
+  right: 470px;
 }
 #agregar3 {
-    top:   560px;
-    right: 130px;
+  top: 560px;
+  right: 130px;
 }
 #agregar4 {
-    top:   1010px;
-    right: 810px;
+  top: 1010px;
+  right: 810px;
 }
 #agregar5 {
-    top:   1010px;
-    right: 470px;
+  top: 1010px;
+  right: 470px;
 }
 #agregar6 {
-    top:   1010px;
-    right: 130px;
+  top: 1010px;
+  right: 130px;
 }
 #woman {
-display: none;
-width: 30%;
-height: 50%;
-position: relative;
-right: -200px;
+  display: none;
+  width: 30%;
+  height: 50%;
+  position: relative;
+  right: -200px;
 }
 
 #negative {
-    display: none;
-    width: 30%;
-    height: 50%;
-    position: relative;
-    right: -200px;
-    }
+  display: none;
+  width: 30%;
+  height: 50%;
+  position: relative;
+  right: -200px;
+}
 #volver {
-    display: none;
+  display: none;
+}
+#foot {
+  background-color: black;
+  text-align: center;
+  font-weight: bolder;
+  height: 80px;
+  color: white;
+  font-size: 12px;
+  line-height: 2px;
+}
+
+#foot .foot {
+  bottom: -20px;
+  position: relative;
 }

@@ -1,96 +1,129 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1> Pour Amelié </h1>
+      <h1>Pour Amelié</h1>
       <p>Moda parisina para chicas auténticas</p>
     </header>
-    <main> 
+    <main>
+      <!--Primera sección donde se encuentra la info de ofertas-->
       <section id="container_1">
-      </section>
+        <img src="images\info.png" alt="oferta">
+      </section> 
+      <!--Segunda sección donde se encuentran las cards de prendas de vestir, descripción y precio, cada una con su botón "Agregar"-->
       <section id="container_2">
-      <div class="card">
-        <img src="https://cdn.shopify.com/s/files/1/1567/6989/products/robe-emma-elise-chalmin8_600x.jpg?v=1635325550" alt="vestido1" style="width:70%">
-        <div>
-          <h4><b>Vestido Emma de Elise Chalmin</b></h4>
-          <p>Precio: 230 €</p>
-          <button type="button" id="agregar1">Agregar</button>
+        <div class="card">
+          <img
+            src="https://cdn.shopify.com/s/files/1/1567/6989/products/robe-emma-elise-chalmin8_600x.jpg?v=1635325550"
+            alt="vestido1"
+            style="width: 70%"
+          />
+          <div>
+            <h4><b>Vestido Emma de Elise Chalmin</b></h4>
+            <p>Precio: 230 €</p>
+            <button type="button" id="agregar1">Agregar</button>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="https://media.cdn-rouje.com/cdn-cgi/image/width=1176,height=1762,quality=60,f=auto/pub/media/catalog/product/h/2/h21jaelle-pieddepoulemarron-1.jpg" alt="vestido1" style="width:70%">
-        <div>
-          <h4><b>Vestido Jaelle de Rouje</b></h4>
-          <p>Precio: 210 €</p>
-          <button type="button" id="agregar2">Agregar</button>
+        <div class="card">
+          <img
+            src="https://media.cdn-rouje.com/cdn-cgi/image/width=1176,height=1762,quality=60,f=auto/pub/media/catalog/product/h/2/h21jaelle-pieddepoulemarron-1.jpg"
+            alt="vestido1"
+            style="width: 70%"
+          />
+          <div>
+            <h4><b>Vestido Jaelle de Rouje</b></h4>
+            <p>Precio: 210 €</p>
+            <button type="button" id="agregar2">Agregar</button>
+          </div>
         </div>
-      </div>
-     <div class="card">
-      <img src="https://media.cdn-rouje.com/cdn-cgi/image/width=1176,height=1762,quality=60,f=auto/pub/media/catalog/product/h/2/h21loraine-unibordeaux-1_1.jpg" alt="vestido1" style="width:70%">
-      <div>
-        <h4><b>Blusa Loraine de Rouje</b></h4>
-        <p>Precio: 175 €</p>
-        <button type="button" id="agregar3">Agregar</button>
-      </div>
-    </div>
-    <div class="card">
-      <img src="https://cdn.shopify.com/s/files/1/0407/2855/9766/products/HL7A3810_900x.jpg?v=1638462393" alt="vestido1" style="width:70%">
-      <div>
-        <h4><b>Blusa Calíope de Balzac</b></h4>
-        <p>Precio: 120 €</p>
-        <button type="button" id="agregar4">Agregar</button>
-      </div>
-    </div>
-    <div class="card">
-      <img src="https://cdn.shopify.com/s/files/1/0407/2855/9766/products/blouse_escale_blanc_jean_paolo_noir_ballerines_fleche_cognac-141_900x.jpg?v=1629397959" alt="vestido1" style="width:70%">
-      <div>
-        <h4><b>Pantalón Paolo de Balzac</b></h4>
-        <p>Precio: 110 €</p>
-        <button type="button" id="agregar5">Agregar</button>
-      </div>
-    </div>
-    <div class="card">
-      <img src="https://es.claudiepierlot.com/dw/image/v2/BCND_PRD/on/demandware.static/-/Sites-claudie-catalog-master-H13/default/dw64d60b72/images/preAH15/Claudie_CFPJU00297-K001_H_2.jpg?sw=595&sh=872&cx=0&cy=0&cw=1255&ch=1840" alt="vestido1" style="width:70%">
-      <div>
-        <h4><b>Falda recta de Claudiet Pierlot</b></h4>
-        <p>Precio: 122 €</p>
-        <button type="button" id="agregar6">Agregar</button>
-      </div>
-    </div>
-    </section>
-    <section id="container_3">
-      <h4>Total a pagar: </h4>
-      <p id="pagar">0 €</p>
-      <button type="button" id="comprar">Comprar</button> 
-    </section>
-     
-    <section id="pantalla2">
+        <div class="card">
+          <img
+            src="https://media.cdn-rouje.com/cdn-cgi/image/width=1176,height=1762,quality=60,f=auto/pub/media/catalog/product/h/2/h21loraine-unibordeaux-1_1.jpg"
+            alt="vestido1"
+            style="width: 70%"
+          />
+          <div>
+            <h4><b>Blusa Loraine de Rouje</b></h4>
+            <p>Precio: 175 €</p>
+            <button type="button" id="agregar3">Agregar</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0407/2855/9766/products/HL7A3810_900x.jpg?v=1638462393"
+            alt="vestido1"
+            style="width: 70%"
+          />
+          <div>
+            <h4><b>Blusa Calíope de Balzac</b></h4>
+            <p>Precio: 120 €</p>
+            <button type="button" id="agregar4">Agregar</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0407/2855/9766/products/blouse_escale_blanc_jean_paolo_noir_ballerines_fleche_cognac-141_900x.jpg?v=1629397959"
+            alt="vestido1"
+            style="width: 70%"
+          />
+          <div>
+            <h4><b>Pantalón Paolo de Balzac</b></h4>
+            <p>Precio: 110 €</p>
+            <button type="button" id="agregar5">Agregar</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://es.claudiepierlot.com/dw/image/v2/BCND_PRD/on/demandware.static/-/Sites-claudie-catalog-master-H13/default/dw64d60b72/images/preAH15/Claudie_CFPJU00297-K001_H_2.jpg?sw=595&sh=872&cx=0&cy=0&cw=1255&ch=1840"
+            alt="vestido1"
+            style="width: 70%"
+          />
+          <div>
+            <h4><b>Falda recta de Claudiet Pierlot</b></h4>
+            <p>Precio: 122 €</p>
+            <button type="button" id="agregar6">Agregar</button>
+          </div>
+        </div>
+      </section>
+      <!--Tercera sección donde se encuentra el monto total a pagar, va cambiando a medida que se agrega una prenda.-->
+      <section id="container_3">
+        <h4>Total a pagar:</h4>
+        <p id="pagar">0 €</p>
+        <button type="button" id="comprar">Comprar</button>
+      </section>
+
+      <!--En esta sección se muestra otra pantalla dividida en dos items.-->
+      <section id="pantalla2">
+        <!--El primer item es una card en la cual se encuentra una imagen de TC y un form para validar la tarjeta-->
         <div id="tcvalid">
-        <img src="https://www.avvillas.com.co/wps/wcm/connect/avvillas/200bee21-344d-4b3e-b292-c78ae78fcefa/TC-Experto-img.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_G0MI0J02L8NK70AHL9SQNR1826-200bee21-344d-4b3e-b292-c78ae78fcefa-nvQRPZy" >
-        <form action="" method="post">
-          <label for="tcnum">Ingrese Número de Tarjeta de Crédito:</label><br>
-          <input type="number" id="tcnum" name="tcnum" min="0" required><br>
-          <button type="button" id="ingresar" >Ingresar</button>
-        </form>
-      </div>
-      <div id="box1">
-        <p>A continuación proceda a ingresar su número de Tarjeta de Crédito para validarla</p>
-        <p id="second"></p>
-        <img src="woman.png" alt="mujer" id="woman">
-        <img src="No.png" alt="no" id="negative">
-        <button type="button" id="volver">Volver al Inicio</button>
-      </div>
-    </section>
-    
-      
+          <img src="https://www.avvillas.com.co/wps/wcm/connect/avvillas/200bee21-344d-4b3e-b292-c78ae78fcefa/TC-Experto-img.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_G0MI0J02L8NK70AHL9SQNR1826-200bee21-344d-4b3e-b292-c78ae78fcefa-nvQRPZy"/>
+          <form action="" method="post">
+            <label for="tcnum">Ingrese Número de Tarjeta de Crédito:</label><br />
+            <input type="number" id="tcnum" name="tcnum" min="0" required/><br />
+            <button type="button" id="ingresar">Ingresar</button>
+          </form>
+        </div>
+        <!--El segundo item se trata de un texto informativo para ingresar el número de Tarjeta-->
+        <div id="box1">
+          <p>A continuación proceda a ingresar su número de Tarjeta de Crédito para validarla</p>
+          <p id="second"></p><!--Muestra dos alternativas de respuesta dependiendo si la TC es válida o no-->
+          <img src="images\woman.png" alt="mujer" id="woman" />
+          <img src="images\No.png" alt="no" id="negative" />
+          <button type="button" id="volver">Volver al Inicio</button><!--Botón para regresar a la página anterior-->
+        </div>
+      </section>
     </main>
+    <!--Pie de página, incluye información de contacto-->
     <footer id="foot">
-      <p>...</p>
+      <h2 class="foot">Pour Amelié</h2>
+      <p class="foot">stephaniemmu@gmail.com Tel.: +57 314 227 0575</p>
+      <p class="foot">Cúcuta, NS</p>
+      <p class="foot">Diseñador web: Stephanie Morales</p>
     </footer>
     <script src="index.js" type="module"></script>
   </body>
