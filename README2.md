@@ -16,14 +16,14 @@ Se trata de una página web sencilla que consta de dos pantallas, una que permit
 
 ** Prototipo en papel
 
-![primer bosquejo del prototipo](images\bosquejo_CCV.jpg)
+![primer bosquejo del prototipo](bosquejo_CCV.jpg)
 
 ** Resumen del feedback
 
 ** Prototipo final
 
-![prototipo en figma 1](images\pantalla1.PNG)
-![prototipo en figma 2](images\pantalla2.PNG)
+![prototipo en figma 1](pantalla1.PNG)
+![prototipo en figma 2](pantalla2.PNG)
 
 
 
