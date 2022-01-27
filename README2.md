@@ -1,10 +1,29 @@
-Validación de Tarjeta de Crédito para una Tienda de Moda Femenina "Pour Amelié"
+# Validación de Tarjeta de Crédito para una Tienda de Moda Femenina "Pour Amelié"
 
-Se trata de una página web sencilla que consta de dos pantallas, una que permite seleccionar los articulos de la tienda que se quieren comprar y en la otra se realiza la validación de la TC, finalmente se muestra un mensaje dependiendo del resultado de la validación.
+## 1. Resumen del proyecto
 
-* Los usuarios directos, las mujeres interesadas en comprar los articulos de la tienda. También se considera como usuario a la empresa de moda, para la cual se crea la página.
+Se trata de una página web sencilla que consta de dos pantallas, una que permite seleccionar los artículos de la tienda que se quieren comprar y en la otra se realiza la validación de la Tarjeta de Crédito, finalmente se muestra un mensaje dependiendo del resultado de la validación.
 
-* A las compradoras, se les permite usar una página web en la cual pueden escojer varios productos de su gusto y comprarlos. A la empresa de moda, se les está creando su página y su programa para validar la TC y así realizar una compra segura.
+## 2. Investigación UX
+
+** Usuarios y los objetivos en relación con el producto
+
+ Los usuarios directos serían las personas en especial, mujeres interesadas en comprar los artículos de la tienda de ropa. También se considera como usuario a la empresa de moda, para la cual se crea la página.
+
+** Solución del problema/necesidad del usuario
+
+ A los compradores, se les permite usar una página web en la cual pueden escojer varios productos de su gusto y comprarlos. A la empresa de moda, se les está creando su página y su programa para validar la TC y así se pueda realizar una compra segura.
+
+** Prototipo en papel
+
+![primer bosquejo del prototipo](images\bosquejo_CCV.jpg)
+
+** Resumen del feedback
+
+** Prototipo final
+
+![prototipo en figma 1](images\pantalla1.PNG)
+![prototipo en figma 2](images\pantalla2.PNG)
 
 
-(DISEÑO DEL PROTOTIPO)(https://www.figma.com/file/Lcrdz0DN6kyPpYkQuvl90m/Untitled?node-id=0%3A1)
+
