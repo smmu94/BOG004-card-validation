@@ -3,7 +3,7 @@ dos funciones, isValid y maskify. Recibe la variable creditCardNumber de la exte
  */
 const validator = {
 
-  // En este método, se convierte la variable recibida a una cadena la función "toString"
+// En este método, se convierte la variable recibida a una cadena la función "toString"
 // Se separa esa cadena en un arreglo con la función "split"
 // Se revierte el arreglo con la función "reverse"
 // La variable indexSize1 guarda la longitud del arreglo con myArray1.length
