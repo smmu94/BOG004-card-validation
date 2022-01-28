@@ -68,8 +68,8 @@ const window2 = () => {
   document.getElementById("container_3").style.display = "none";
   document.getElementById("tcvalid").style.display = "block";
   document.getElementById("box1").style.display = "block";
-}
- btn7.addEventListener("click", window2);
+};
+btn7.addEventListener("click", window2);
 
 /*En este caso, al hacer click en el botón ingresar me ejecuta la función creditCardV
 la cual me guarda el número de TC y lo manda como argumento al objeto validator
@@ -78,7 +78,6 @@ y regresa al argumento un valor booleano para isValid y el número de TC enmasca
 Se guardan en las variables mensaje y tcfinal respectivamente. Si mensaje corresponde a "true", 
 se muestra un mensaje positivo de la compra en la pantalla. Si mensaje corresponde a "false", 
 emite un mensaje negativo y pide ingresar nuevamente un número válido */
-
 var btn = document.getElementById("ingresar");
 const creditCardV = () => {
   var tcnumero = document.getElementById("tcnum").value;
@@ -86,16 +85,24 @@ const creditCardV = () => {
   const mensaje = validator.isValid(tcnumero);
   const tcfinal = validator.maskify(tcnumero);
 
-  if (mensaje == true) {
-    document.getElementById("second").innerHTML ="Como su tarjeta Nro " + tcfinal + " es válida, su compra se realizó de manera satisfactoria.";
+  if (mensaje == true && tcnumero != "") {
+    document.getElementById("second").innerHTML =
+      "Como su tarjeta Nro " +
+      tcfinal +
+      " es válida, su compra se realizó de manera satisfactoria.";
     document.getElementById("woman").style.display = "block";
     document.getElementById("negative").style.display = "none";
     document.getElementById("volver").style.display = "block";
-  } else {
-    document.getElementById("second").innerHTML ="La tarjeta de crédito Nro " + tcfinal + " es inválida, por favor ingrese otro número!.";
+  } else if (mensaje == false && tcnumero != "") {
+    document.getElementById("second").innerHTML =
+      "La tarjeta de crédito Nro " +
+      tcfinal +
+      " es inválida, por favor ingrese otro número!.";
     document.getElementById("negative").style.display = "block";
     document.getElementById("woman").style.display = "none";
     document.getElementById("volver").style.display = "block";
+  } else {
+    alert("Ingrese un número, no deje el campo vacío");
   }
 };
 btn.addEventListener("click", creditCardV);
@@ -110,6 +117,11 @@ const volverPantalla1 = () => {
   document.getElementById("tcvalid").style.display = "none";
   document.getElementById("box1").style.display = "none";
   document.getElementById("pagar").innerHTML = "0 €";
+  document.getElementById("second").innerHTML = "";
+  document.getElementById("negative").style.display = "none";
+  document.getElementById("woman").style.display = "none";
+  document.getElementById("volver").style.display = "none";
+  document.getElementById("tcnum").value = "";
   acum = 0;
 };
 btn8.addEventListener("click", volverPantalla1);

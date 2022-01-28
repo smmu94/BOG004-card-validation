@@ -1,9 +1,9 @@
 /* Se declara el objeto validator el cual consta de dos métodos que en este caso corresponden a 
-dos funciones, isValid y maskify. Recibe la variable creditCardNumber de la extensión validator.js,
+dos funciones, isValid y maskify. Recibe la variable creditCardNumber de la extensión validator.js
  */
 const validator = {
 
-// En este método, se convierte la variable recibida a una cadena la función "toString"
+  // En este método, se convierte la variable recibida a una cadena la función "toString"
 // Se separa esa cadena en un arreglo con la función "split"
 // Se revierte el arreglo con la función "reverse"
 // La variable indexSize1 guarda la longitud del arreglo con myArray1.length
@@ -13,6 +13,7 @@ const validator = {
 // Ya teniendo mi arreglo listo, sumo los números que llena dicho array con la función "reduce"
 // Esa suma se guarda en una variable. Si el módulo que se obtiene al dividir esta suma entre 10 es cero, retorna true, si no retorna false
 // Este booleano se retorna para que pueda ser usado en index.js
+  
   isValid: (creditCardNumber) => {
     const numero = creditCardNumber.toString();
     const myArray = numero.split("");
@@ -40,6 +41,7 @@ const validator = {
   // Se usa un ciclo for para tapar los números con un #, exceptuando los útimos 4 dígitos
   // Siempre que la posición actual sea menor a la longitud del arreglo menos 4 y dicha longitud sea mayor a 4, se convierte ese dígito en #
   // Se convierte el nuevo arreglo en cadena nuevamente y se retorna para ser usado en index.js
+
   maskify: (creditCardNumber) => {
     const myArray2 = creditCardNumber.split("");
     const indexSize2 = myArray2.length;
